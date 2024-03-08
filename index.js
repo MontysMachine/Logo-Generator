@@ -12,6 +12,11 @@ inquirer
 },
 {
     type: 'input',
+    message: 'Please enter the color keyword or hexadecimal number for the text in your logo\n',
+    name: 'textColor'
+},
+{
+    type: 'input',
     message: 'Please enter the color keyword or hexadecimal number for your logo\n',
     name: 'color'
 },
@@ -26,17 +31,18 @@ inquirer
 const shape = answers.shape;
 const text = answers.text;
 const color = answers.color;
+const textColor = answers.textColor;
 
 let logo;
 switch (shape) {
     case 'Square':
-    logo = new Square(text, color);
+    logo = new Square(text, color, textColor);
     break;
     case 'Triangle':
-    logo = new Triangle(text, color);
+    logo = new Triangle(text, color, textColor);
     break;
     case 'Circle':
-    logo = new Circle(text, color);
+    logo = new Circle(text, color, textColor);
     break;
     default:
     console.log('Invalid answers');
