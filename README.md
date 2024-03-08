@@ -19,6 +19,8 @@ Run npm install to install the required dependencies for this project.
 
 This is to be used to create a logo for you using a SVG image.
 
+(https://drive.google.com/file/d/1h3EGgpGVIBPhzWLdhQHKVA7tPo_v6nzw/view)
+
 ## Credits
 
 Used ChatGPT for help with the SVG elements, I don't know why but reading through that documentation was grueling so i got some help. Also guidelines for the project were provided by UT FullStack Web Development bootcamp otherwise i wouldn't know how to organize my directory
